@@ -1,9 +1,11 @@
 import styles from '../styles/Layout.module.css'
 import Header from './Header'
 import Nav from './Nav'
+import Meta from './Meta'
 
 const Layout = ({ children }) => (
   <>
+    <Meta />
     <Nav />
     <div className={styles.container}>
       <main className={styles.main}>
